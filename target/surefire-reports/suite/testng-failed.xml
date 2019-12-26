@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" parallel="tests" name="1(failed)" verbose="0">
+    <classes>
+      <class name="Ivi">
+        <methods>
+          <include name="getDriver"/>
+          <include name="getSeach"/>
+          <include name="wikiIvi"/>
+          <include name="browserLocale"/>
+          <include name="closeDriver"/>
+          <include name="getBack"/>
+        </methods>
+      </class> <!-- Ivi -->
+    </classes>
+  </test> <!-- 1(failed) -->
+</suite> <!-- Failed suite [suite] -->

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-26T22:00:54Z" name="suite" finished-at="2019-12-26T22:01:59Z" duration-ms="65205">
+    <groups>
+      <group name="homeWork">
+        <method signature="Ivi.browserLocale()[pri:0, instance:Ivi@179ece50]" name="browserLocale" class="Ivi"/>
+      </group> <!-- homeWork -->
+    </groups>
+    <test started-at="2019-12-26T22:00:54Z" name="1" finished-at="2019-12-26T22:01:59Z" duration-ms="65205">
+      <class name="Ivi">
+        <test-method is-config="true" signature="getDriver()[pri:0, instance:Ivi@179ece50]" started-at="2019-12-26T22:00:51Z" name="getDriver" finished-at="2019-12-26T22:00:54Z" duration-ms="3608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDriver -->
+        <test-method is-config="true" signature="getBack()[pri:0, instance:Ivi@179ece50]" started-at="2019-12-26T22:00:54Z" name="getBack" finished-at="2019-12-26T22:00:55Z" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBack -->
+        <test-method is-config="true" signature="getSeach()[pri:0, instance:Ivi@179ece50]" started-at="2019-12-26T22:00:55Z" name="getSeach" finished-at="2019-12-26T22:00:58Z" duration-ms="2864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSeach -->
+        <test-method signature="browserLocale()[pri:0, instance:Ivi@179ece50]" started-at="2019-12-26T22:00:58Z" name="browserLocale" description="проверка русской локали браузера" finished-at="2019-12-26T22:00:58Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLocale -->
+        <test-method is-config="true" signature="getBack()[pri:0, instance:Ivi@179ece50]" started-at="2019-12-26T22:00:58Z" name="getBack" finished-at="2019-12-26T22:00:59Z" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBack -->
+        <test-method is-config="true" signature="getSeach()[pri:0, instance:Ivi@179ece50]" started-at="2019-12-26T22:00:59Z" name="getSeach" finished-at="2019-12-26T22:01:01Z" duration-ms="2196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSeach -->
+        <test-method signature="imagesOfIviInGooglePictures()[pri:0, instance:Ivi@179ece50]" started-at="2019-12-26T22:01:01Z" name="imagesOfIviInGooglePictures" description="проверка, что не менее 3 больших картинок в выдаче google ведут на сайт ivi.ru" depends-on-groups="homeWork.*" finished-at="2019-12-26T22:01:04Z" duration-ms="2742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imagesOfIviInGooglePictures -->
+        <test-method is-config="true" signature="getBack()[pri:0, instance:Ivi@179ece50]" started-at="2019-12-26T22:01:04Z" name="getBack" finished-at="2019-12-26T22:01:04Z" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBack -->
+        <test-method is-config="true" signature="getSeach()[pri:0, instance:Ivi@179ece50]" started-at="2019-12-26T22:01:04Z" name="getSeach" finished-at="2019-12-26T22:01:06Z" duration-ms="1909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSeach -->
+        <test-method signature="playIvi()[pri:0, instance:Ivi@179ece50]" started-at="2019-12-26T22:01:06Z" name="playIvi" description="проверка совпадения рейтинга приложения в результатах поиска с рейтингом в play-маркете" depends-on-groups="homeWork.*" finished-at="2019-12-26T22:01:32Z" duration-ms="26017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playIvi -->
+        <test-method is-config="true" signature="getBack()[pri:0, instance:Ivi@179ece50]" started-at="2019-12-26T22:01:32Z" name="getBack" finished-at="2019-12-26T22:01:32Z" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBack -->
+        <test-method is-config="true" signature="getSeach()[pri:0, instance:Ivi@179ece50]" started-at="2019-12-26T22:01:32Z" name="getSeach" finished-at="2019-12-26T22:01:34Z" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSeach -->
+        <test-method signature="wikiIvi()[pri:0, instance:Ivi@179ece50]" started-at="2019-12-26T22:01:34Z" name="wikiIvi" description="проверка, что в статье ivi на wiki есть ссылка на официальный сайт ivi.ru" depends-on-groups="homeWork.*" finished-at="2019-12-26T22:01:59Z" duration-ms="25033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wikiIvi -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:Ivi@179ece50]" started-at="2019-12-26T22:01:59Z" name="closeDriver" finished-at="2019-12-26T22:02:02Z" duration-ms="2112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Ivi -->
+    </test> <!-- 1 -->
+  </suite> <!-- suite -->
+</testng-results>
