@@ -4,7 +4,7 @@ import org.testng.annotations.DataProvider;
 public class DataForTasks {
 
     public static final String URL_GOOGLE = "https://www.google.com/";
-    public final int pages = 2;
+    public final int pages = 5;
     public final int ms = 10;
 
 
